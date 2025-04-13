@@ -1,11 +1,10 @@
-import UserGreeting from "./UserGreeting.jsx"
+import Button from "./Button.jsx"
+import ProfilePicture from "./ProfilePicture.jsx"
 
 function App() {
-  
-  return (
+  return(
     <>
-      <UserGreeting isLoggedIn = {true} username = "Cosmin"/>
-      <UserGreeting isLoggedIn = {true} />
+      <ProfilePicture/>
     </>
   )
 }
